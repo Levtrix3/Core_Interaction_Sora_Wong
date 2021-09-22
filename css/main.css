@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  padding:2rem;
 }
 
 /*
@@ -65,9 +66,18 @@ video {
   vertical-align: middle;
 }
 
+
+
+img {
+  
+  max-width: 100%;
+  height: auto;
+}
+
 /*
  * Remove default fieldset styles.
  */
+
 
 fieldset {
   border: 0;
