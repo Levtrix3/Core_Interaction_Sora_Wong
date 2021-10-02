@@ -28,12 +28,12 @@ main {
   grid-gap:20px;
 }
 
-left-sidebar {
+.left-sidebar {
   grid-column: 1 / 2;
   background-color: #ccc;
 }
 
-main-content {
+.main-content {
   grid-column:  2/ 3;
 }
 
