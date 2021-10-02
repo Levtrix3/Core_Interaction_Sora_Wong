@@ -30,7 +30,7 @@ main {
 
 .left-sidebar {
   grid-column: 1 / 2;
-  background-color: #ccc;
+  background-color: #222;
 }
 
 .main-content {
