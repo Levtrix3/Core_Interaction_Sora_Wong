@@ -71,7 +71,7 @@ main {
   grid-gap: 10px 10px; 
 }
 .cell {
-  color: white;
+  color: rgb(32, 32, 32);
   font-size: 3rem;
   text-align: center;
   padding: 4rem;
