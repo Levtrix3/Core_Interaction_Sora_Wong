@@ -63,7 +63,7 @@ main {
 
 /* My Portfolio */
 .container1 {
-  height: 90vh;
+  height: 200vh;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -77,31 +77,31 @@ main {
   padding: 4rem;
 }
 .cell-1 {
-  background: deepskyblue;
+  background: rgb(243, 243, 243)
 }
 .cell-2 {
-  background: orangered;
+  background: black
 }
 .cell-3 {
-  background: royalblue;
+  background: rgb(243, 243, 243)
 }
 .cell-4 {
-  background: gold;
+  background: black
 }
 .cell-5 {
-  background: blueviolet;
+  background: rgb(243, 243, 243)
 }
 .cell-6 {
-  background: limegreen;
+  background: black
 }
 .cell-7 {
-  background: coral;
+  background: rgb(243, 243, 243)
 }
 .cell-8 {
-  background: lightseagreen;
+  background: black
 }
 .cell-9 {
-  background: maroon;
+  background: rgb(243, 243, 243)
 }
 /* Typography */
 
