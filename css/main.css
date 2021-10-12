@@ -350,12 +350,14 @@ textarea {
   /* EVIDENCE OF PURCHASE */
 
   /* My Portfolio */
+  
   .container {
     height: 90vh;
     margin: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
   }
   .cell {
     color: white;
@@ -391,16 +393,9 @@ textarea {
     background: maroon;
   }
 
-  .container {
-    grid-template-columns: 2fr 1fr 1fr 200px; 
-    grid-template-rows: 1fr 1fr 1fr; 
-  }
+  
 
-  .container { 
-    grid-gap: 10px 10px; 
-  }
-  
-  
+
   /* OTHER STYLES */
   
   body {
