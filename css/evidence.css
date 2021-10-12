@@ -1,3 +1,11 @@
+html {
+    color: rgb(172, 165, 165);
+    font-size: 1em;
+    line-height: 1.4;
+    padding:2rem;
+    background-color: #222;
+  }
+  
 body {
     display: grid;
     padding: 2rem;
