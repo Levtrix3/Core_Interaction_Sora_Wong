@@ -102,17 +102,17 @@ h6 {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(192, 192, 192);
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(43, 43, 43);
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(243, 243, 243);
 }
 
 /* selected link */
