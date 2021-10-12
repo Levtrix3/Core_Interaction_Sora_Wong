@@ -78,23 +78,15 @@ main {
 }
 .cell-1 {
   background: deepskyblue;
-  grid-row: 1; 
-  grid-column: 1/4; 
 }
 .cell-2 {
   background: orangered;
-  grid-row: 2/4; 
-  grid-column: 1/2; 
 }
 .cell-3 {
   background: royalblue;
-  grid-row: 2/4; 
-  grid-column: 2/3; 
 }
 .cell-4 {
   background: gold;
-  grid-row: 2/4; 
-  grid-column: 3/4; 
 }
 .cell-5 {
   background: blueviolet;
