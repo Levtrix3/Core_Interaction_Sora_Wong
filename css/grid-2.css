@@ -46,82 +46,29 @@
     grid-template-rows: 1fr 1fr 1fr; 
   }
   
-  As there are 4 columns instead of 3 in the modified grid, the .cell-9 div can be found alone in the third row:
-  
-  CSS Grid Layout - Unequal tracks
-  2. Add Gutters
-  
-  The grid-gap property is a shorthand for grid-row-gap and grid-column-gap. We can use it to quickly add gaps in-between the grid tracks.
-  
-  Let’s go back to the previous 3*3 grid and add a 10px gap between the grid cells. We can add the grid-gap property to the grid container in the following way:
   
   .container { 
     grid-gap: 10px 10px; 
   }
   
-  In the browser, we can see that now there is a neat gap in-between the grid cells:
-  
-  CSS Grid Layout with Gaps
-  3. Position Grid Cells
-  
-  We can specify the size and location of individual grid cells using the grid-row and grid-column properties. We need to add these two properties to the grid cells we want to position.
-  
-  First, let’s see a simple case. Say we want to move Cell 1 to the second row and third column in the grid (to the current place of Cell 6). To do so, we simply need to add the following two CSS rules to .cell-1:
-  
+ 
   .cell-1 { 
     grid-row: 2; 
     grid-column: 3; 
   }
   
-  As you can see below, Cell 1 has been moved to the place we targeted and the rest of the cells keep following the default order:
-  
-  CSS Grid Layout - Repositioned Cell
-  4. Size Grid Cells
-  
-  We can’t only use the grid-row and grid-column properties to change the order of the cells, but they also allow us to modify their size. In fact, both of them are shorthands. The grid-row property is a shorthand for grid-row-start and grid-row-end, while grid-column consists of the grid-column-start and grid-column-end properties.
-  
-  Let’s say, we want Cell 1 to span across the first row. We can implement the layout by adding the following style rules:
   
   .cell-1 { 
     grid-row: 1; 
     grid-column: 1/4; 
   }
   
-  Below, you can see that Cell 1 spans across the whole first row and pushes down all the following cells:
-  
-  CSS Grid Layout - Full-width RowThe grid-row property works the same way as grid-column. Let’s say, we want to implement a more complicated layout and have a main content area beside the header (Cell 1). For instance, we can span Cell 2 across the first and second columns & the second and third rows using the following code:
-  
+ 
   .cell-2 { 
     grid-row: 2/4; 
     grid-column: 1/3; 
   }
   
-  And, the expanded main content area is already ready in the browser:
-  
-  CSS Grid Layout - Spanning Tracks
-  5. Define Named Grid Areas
-  
-  In fact, it’s possible to implement any kind of complicated layouts with the CSS Grid. However, if our grid gets too complicated it can be tough to follow up with all the rows and columns by just referring them by their numbers. To help developers overcome this hardship, the CSS Grid also makes it possible to define pre-named grid areas that are easy to remember.
-  
-  Let’s say we want to implement a simple blog page layout with a header, a footer, a main content area, and two sidebars (one on the left and one on the right side). Although this is not a very complicated layout, it can be still more comfortable to refer to the grid cells by their name.
-  
-  The HTML is very similar to the previous example. We simply stack the cells on each other. However, for the sake of accessibility, here we use semantic HTML tags: header, main, aside, footer.
-  
-  <div class="container">
-    <header class="cell cell-1">Header</header>
-    <aside class="cell cell-2">Left sidebar</aside>
-    <main class="cell cell-3">Main content</main>
-    <aside class="cell cell-4">Right sidebar</aside>
-    <footer class="cell cell-5">Footer</footer>
-  </div>
-  
-  In the CSS, we need to use two new properties: grid-template-areas on the grid container and grid-area on each individual grid area, separately.
-  
-  First, let’s use the grid-area property on the grid cells and give each one a separate name. In the example, we use “header”, “left”, “main”, “right”, and “footer” names, but you can use anything else instead.
-  
-  Then, we can add the grid-template-areas property to the grid container. It’s a really handy property, as it lets us arrange our grid cells visually. In our example, we want the main content area to be twice as wide as one sidebar. So, we specify one column to the left sidebar, one column to the main area, and one to the right sidebar.
-  
-  As we want both the header and the footer to span across the whole screen, we specify three-three grid columns for each. We set the width and height of the rows and columns with the grid-template-rows and grid-template-columns properties, just like before:
   
   .container {
      height: 90vh;
@@ -161,29 +108,6 @@
      padding: 4rem;
   }
   
-  As you can see on the screenshot below, the grid-template-areas and grid-area properties have automatically generated the grid we wanted to create:
-  
-  CSS Grid Named Grid Areas
-  6. Create Nested Grids
-  
-  As the grid layout only applies to the direct children of the grid container, lower-level descendants won’t be grid items. However in many cases, we may want those elements to be grid cells as well. Luckily, the CSS Grid Layout Module module allows grid items to be grid containers as well. Nested grids work according to the same rules as standalone ones.
-  
-  For instance, let’s say we want to divide the footer into four equal columns. In the HTML, we simply add four divs to the footer in the following way:
-  
-  <div class="container">
-     <header class="cell cell-1">Header</header>
-     <aside class="cell cell-2">Left sidebar</aside>
-     <main class="cell cell-3">Main content</main>
-     <aside class="cell cell-4">Right sidebar</aside>
-     <footer class="cell cell-5">
-         <div class="cell cell-6">Footer 1</div>
-         <div class="cell cell-7">Footer 2</div>
-         <div class="cell cell-8">Footer 3</div>
-         <div class="cell cell-9">Footer 4</div>
-     </footer>
-   </div>
-  
-  In the CSS, we add the display: grid; property to .cell-5 and set the width of the columns and the column gaps using the grid-template-columns and grid-column-gap properties:
   
   .cell-5 {
      display: grid;
