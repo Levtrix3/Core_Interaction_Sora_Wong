@@ -62,12 +62,13 @@ main {
 }
 
 /* My Portfolio */
-.container {
+.container1 {
   height: 200vh;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px 10px; 
 }
 .cell {
   color: white;
@@ -79,20 +80,29 @@ main {
   background: rgb(32, 32, 32);
 }
 .cell-2 {
-  background: rgb(190, 190, 190);
+  background: rgb(197, 197, 197);
 }
 .cell-3 {
   background: rgb(32, 32, 32);
 }
 .cell-4 {
-  background: rgb(190, 190, 190);
+  background: rgb(197, 197, 197);
 }
 .cell-5 {
   background: rgb(32, 32, 32);
 }
 .cell-6 {
-  background: rgb(190, 190, 190);
-
+  background: rgb(197, 197, 197);
+}
+.cell-7 {
+  background: rgb(32, 32, 32);
+}
+.cell-8 {
+  background: rgb(197, 197, 197);
+}
+.cell-9 {
+  background: rgb(32, 32, 32);
+}
 
 /* Typography */
 
