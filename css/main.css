@@ -44,6 +44,11 @@ main {
   background-color: #222;
 }
 
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-content {
   grid-column:  2/ 3;
 }
