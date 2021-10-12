@@ -388,7 +388,7 @@ textarea {
   /* EVIDENCE OF PURCHASE */
 
   /* My Portfolio */
-  container {
+  .container {
     height: 90vh;
     margin: 2rem;
     display: grid;
@@ -419,7 +419,24 @@ textarea {
   .cell-6 {
     background: limegreen;
   }
+  .cell-7 {
+    background: coral;
+  }
+  .cell-8 {
+    background: lightseagreen;
+  }
+  .cell-9 {
+    background: maroon;
+  }
 
+  .container {
+    grid-template-columns: 2fr 1fr 1fr 200px; 
+    grid-template-rows: 1fr 1fr 1fr; 
+  }
+
+  .container { 
+    grid-gap: 10px 10px; 
+  }
   
   
   /* OTHER STYLES */
