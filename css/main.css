@@ -385,9 +385,41 @@ textarea {
     grid-row: 4 / 5;
     grid-column: 1 / 4;
   }
-  
-  
-  
+  /* EVIDENCE OF PURCHASE */
+
+  /* My Portfolio */
+  container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
+  .cell-1 {
+    background: deepskyblue;
+  }
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-3 {
+    background: royalblue;
+  }
+  .cell-4 {
+    background: gold;
+  }
+  .cell-5 {
+    background: blueviolet;
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+
   
   
   /* OTHER STYLES */
@@ -479,4 +511,5 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 
