@@ -66,43 +66,40 @@ main {
   height: 200vh;
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer";
+grid-template-rows: 1fr 3fr 1fr;
+grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px 10px; 
+}
+.cell-1 {
+  background: deepskyblue;
+  grid-area: header;
+}
+.cell-2 {
+  background: orangered;
+  grid-area: left;
+}
+.cell-3 {
+  background: limegreen;
+  grid-area: main;
+}
+.cell-4 {
+  background: gold;
+  grid-area: right;
+}
+.cell-5 {
+  background: blueviolet;
+  grid-area: footer;
 }
 .cell {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 4rem;
 }
-.cell-1 {
-  background: rgb(175, 174, 174)
-}
-.cell-2 {
-  background: rgb(32, 32, 32)
-}
-.cell-3 {
-  background: rgb(175, 174, 174)
-}
-.cell-4 {
-  background: rgb(32, 32, 32)
-}
-.cell-5 {
-  background: rgb(175, 174, 174)
-}
-.cell-6 {
-  background: rgb(32, 32, 32)
-}
-.cell-7 {
-  background: rgb(175, 174, 174)
-}
-.cell-8 {
-  background: rgb(32, 32, 32)
-}
-.cell-9 {
-  background: rgb(175, 174, 174)
-}
+
 /* Typography */
 
 
