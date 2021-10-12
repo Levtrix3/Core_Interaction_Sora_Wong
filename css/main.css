@@ -61,20 +61,15 @@ main {
   grid-column:1 / 3;
 }
 
-.container1 {
-  height: 90vh;
-  width: 90vw;
-  margin: 2rem auto;
-  display: grid;
-  grid-template-areas: "header header header"
-                       "left main right"
-                       "footer footer footer";
-  grid-template-rows: 1fr 3fr 1fr;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
 /* My Portfolio */
-  cell {
+.container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.cell {
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -93,12 +88,7 @@ main {
   background: gold;
 }
 .cell-5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 1rem;
-}
-.cell-5 .cell {
-  background-color: coral;
+  background: blueviolet;
 }
 .cell-6 {
   background: limegreen;
@@ -111,12 +101,6 @@ main {
 }
 .cell-9 {
   background: maroon;
-}
-.cell {
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: 4rem;
 }
 
 /* Typography */
