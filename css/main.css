@@ -367,12 +367,15 @@ textarea {
     padding: 4rem;
   }
   .cell-1 {
+    grid-column: 1 / 2;
     background: deepskyblue;
   }
   .cell-2 {
+    grid-column: 2 / 3;
     background: orangered;
   }
   .cell-3 {
+    grid-column: 3 / 4;
     background: royalblue;
   }
   .cell-4 {
