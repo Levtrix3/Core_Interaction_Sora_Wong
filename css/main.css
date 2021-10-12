@@ -64,14 +64,14 @@ main {
 /* My Portfolio */
 .container1 {
   height: 200vh;
-  width: auto;
+  width: 200;
   margin: 2rem;
   display: grid;
   grid-template-areas: "header header header"
                        "left main right"
                        "footer footer footer";
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px 10px; 
 }
 
