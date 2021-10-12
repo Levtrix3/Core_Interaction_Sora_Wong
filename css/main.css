@@ -63,11 +63,37 @@ main {
 
 /* My Portfolio */
 .container1 {
-  height: 150vh;
+  height: 200vh;
+  width: auto;
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer";
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 10px 10px; 
+}
+
+.cell-1 {
+  background: deepskyblue;
+  grid-area: header;
+}
+.cell-2 {
+  background: orangered;
+  grid-area: left;
+}
+.cell-3 {
+  background: limegreen;
+  grid-area: main;
+}
+.cell-4 {
+  background: gold;
+  grid-area: right;
+}
+.cell-5 {
+  background: blueviolet;
+  grid-area: footer;
 }
 .cell {
   color: white;
@@ -75,33 +101,7 @@ main {
   text-align: center;
   padding: 4rem;
 }
-.cell-1 {
-  background: deepskyblue;
-}
-.cell-2 {
-  background: orangered;
-}
-.cell-3 {
-  background: royalblue;
-}
-.cell-4 {
-  background: gold;
-}
-.cell-5 {
-  background: blueviolet;
-}
-.cell-6 {
-  background: limegreen;
-}
-.cell-7 {
-  background: coral;
-}
-.cell-8 {
-  background: lightseagreen;
-}
-.cell-9 {
-  background: maroon;
-}
+
 /* Typography */
 
 
