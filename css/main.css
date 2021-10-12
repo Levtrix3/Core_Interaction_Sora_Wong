@@ -11,7 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css?family=Raleway');
+   @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
 html {
   color: rgb(172, 165, 165);
@@ -68,7 +68,7 @@ main {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", Arial, sans-serif
+  font-family: 'Alegreya', serif;
   font-weight:700;
 }
 
