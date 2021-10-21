@@ -169,6 +169,21 @@ h5 {
   margin-bottom:.5rem;
 }
 
+/* INTERACTIVE EMAIL PORTAL */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+footer{display:block}summary{display:list-item}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-large{font-size:18px!important}
+.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
+.w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-block{display:block;width:100%}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.w3-centered tr th,.w3-centered tr td{text-align:center}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+
 
 p{
   font-family: 'Source Sans Pro', sans-serif;
