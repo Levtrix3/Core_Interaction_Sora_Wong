@@ -11,7 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
    
 
 
@@ -35,7 +35,7 @@ figure {
 /* unvisited link */
 a:link {
   color: #000;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 
 }
 
@@ -140,7 +140,7 @@ header {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Mono', monospace;;
+  font-family: 'Didact Gothic', sans-serif;
   font-weight:900;
   margin:0;
   padding:0;
@@ -188,7 +188,7 @@ footer{display:block}summary{display:list-item}
 
 
 p{
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   padding:0;
@@ -199,7 +199,7 @@ p{
 
 .pull-quote {
   font-size: 2.25rem;
-  font-family: 'Roboto Mono', serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-style: italic;
   font-weight:400;  
   line-height: 1.5;
