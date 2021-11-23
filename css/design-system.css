@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Noto+Sans+JP:400,500,900&display=swap');
 /*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merriweather&display=swap');
 html {
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
-    background-color: #eaeaea;
+  font-family: 'Didact Gothic', sans-serif;
+    background-color: #999999;
 }
 
 body {
@@ -15,12 +15,12 @@ body {
 }
 
 :root {
-  --wf-gray: #434E59;
-  --wf-light-gray: #E6ECF2;
-  --wf-bright-yellow: #F2BC1B;
-  --wf-medium-yellow: #CF9730;
-  --wf-medium-brown: #CF9730;
-  --wf-deep-brown: #736048;
+  --wf-gray: #a9aaac;
+  --wf-light-gray: #222222;
+  --wf-bright-yellow: #222222;
+  --wf-medium-yellow: #222222;
+  --wf-medium-brown: #222222;
+  --wf-deep-brown: #222222;
   --body-text-color: var(--wf-medium-brown);
 }
 
@@ -130,7 +130,9 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+
+  font-family: 'Merriweather', serif;
     font-weight:700;
   line-height:1;
 }
@@ -198,23 +200,23 @@ p, li {
 
 
   .color-gray {
-    background-color: #434E59;
+    background-color: #eaecee;
   }
 
     .color-light-gray {
-    background-color: #E6ECF2;
+    background-color: #c1c2c4;
   }
     .color-bright-yellow {
-    background-color: #F2BC1B;
+    background-color: #222222;
   }
     .color-medium-yellow {
-    background-color: #CF9730;
+    background-color: #222222;
   }
     .color-medium-brown {
-    background-color: #A66312;
+    background-color: #222222;
   }
     .color-deep-brown {
-    background-color: #736048;
+    background-color: #222222;
   }
 
 
@@ -222,7 +224,7 @@ p, li {
   display: flex;
   padding:3rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Didact Gothic', sans-serif;}
 
 .primary-hue > div {
   width:33%;
@@ -232,7 +234,7 @@ p, li {
   display: flex;
   padding:1.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Didact Gothic', sans-serif;}
 
 .secondary-hue > div {
   width:33%;
@@ -242,7 +244,7 @@ p, li {
   display: flex;
   padding:1.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Didact Gothic', sans-serif;}
 
 .neutral-hue > div {
   width:33%;
@@ -252,7 +254,7 @@ p, li {
   display: flex;
   padding:.5rem 1rem;
   color:#ffffff;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Didact Gothic', sans-serif;}
 
 .accent-hue > div {
   width:33%;
