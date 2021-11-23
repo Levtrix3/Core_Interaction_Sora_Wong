@@ -2,8 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Noto+Sans+JP:400,500,900&display=swap');
 /*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Road+Rage&family=Shadows+Into+Light&display=swap');
 html {
   font-size: 1rem;
   font-family: 'Didact Gothic', sans-serif;
@@ -130,7 +129,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Didact Gothic', sans-serif;
 
   font-family: 'Merriweather', serif;
     font-weight:700;
@@ -159,12 +157,14 @@ h4 {
 }
 h5 {
   font-size:1;
+  font-family: 'Shadows Into Light', cursive;
   margin-bottom:.5rem;
 
 }
 
 h6 {
   font-size:1rem;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 p, li {
@@ -274,7 +274,7 @@ p, li {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Noto Sans JP';
+  font-family: 'Merriweather', serif;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.4s;
