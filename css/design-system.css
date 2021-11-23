@@ -6,6 +6,7 @@
 html {
   font-size: 1rem;
   font-family: 'Didact Gothic', sans-serif;
+  
     background-color: #999999;
 }
 
@@ -56,6 +57,7 @@ main {
 
 #left-sidebar {
   grid-column: 1 / 2;
+  
 }
 
 #main-content {
@@ -65,6 +67,7 @@ main {
 #right-sidebar {
   grid-column: 3 / 4;
 }
+
 
 section {
   background:#fff;
