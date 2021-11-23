@@ -1,13 +1,12 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Noto+Sans+JP:400,500,900&display=swap');
 /*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
-@import url('http://fonts.cdnfonts.com/css/fowviel');
-
-                
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
   font-size: 1rem;
-  font-family: 'Fowviel', sans-serif;
-                                                
+  font-family: 'Open Sans', sans-serif;
     background-color: #eaeaea;
 }
 
@@ -16,12 +15,12 @@ body {
 }
 
 :root {
-  --wf-gray: #d5d2ca;
-  --wf-light-gray: #151515;
-  --wf-bright-yellow: #151515;
-  --wf-medium-yellow: #151515;
-  --wf-medium-brown: #151515;
-  --wf-deep-brown: #151515;
+  --wf-gray: #434E59;
+  --wf-light-gray: #E6ECF2;
+  --wf-bright-yellow: #F2BC1B;
+  --wf-medium-yellow: #CF9730;
+  --wf-medium-brown: #CF9730;
+  --wf-deep-brown: #736048;
   --body-text-color: var(--wf-medium-brown);
 }
 
@@ -131,14 +130,12 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Fowviel', sans-serif;
-  color:#151515;                                 
+  font-family: 'Open Sans', sans-serif;
     font-weight:700;
   line-height:1;
 }
 
 h1 {
-
   font-size:5rem;
   margin-bottom:1.25rem;
 
@@ -196,11 +193,35 @@ p, li {
 
 }
 
+/* Color samples */
+
+
+
+  .color-gray {
+    background-color: #434E59;
+  }
+
+    .color-light-gray {
+    background-color: #E6ECF2;
+  }
+    .color-bright-yellow {
+    background-color: #F2BC1B;
+  }
+    .color-medium-yellow {
+    background-color: #CF9730;
+  }
+    .color-medium-brown {
+    background-color: #A66312;
+  }
+    .color-deep-brown {
+    background-color: #736048;
+  }
+
 
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:#d5d2ca;
+  color:#ffffff;
   font-family: 'Open Sans', sans-serif;}
 
 .primary-hue > div {
@@ -210,7 +231,7 @@ p, li {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#151515;
+  color:#ffffff;
   font-family: 'Open Sans', sans-serif;}
 
 .secondary-hue > div {
@@ -220,7 +241,7 @@ p, li {
 .neutral-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#151515;
+  color:#ffffff;
   font-family: 'Open Sans', sans-serif;}
 
 .neutral-hue > div {
@@ -230,7 +251,7 @@ p, li {
 .accent-hue {
   display: flex;
   padding:.5rem 1rem;
-  color:#151515;
+  color:#ffffff;
   font-family: 'Open Sans', sans-serif;}
 
 .accent-hue > div {
@@ -521,6 +542,4 @@ button:hover {
   clear: both;
   display: table;
 }
-
-
 
